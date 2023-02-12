@@ -31,7 +31,7 @@
 		0896A9642985BF56001A036A /* createGrammar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createGrammar.swift; sourceTree = "<group>"; };
 		0896A96A2985CC1B001A036A /* parse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parse.swift; sourceTree = "<group>"; };
 		0896A96C2985CC5D001A036A /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
-		08C836DA2985AA01003EC24F /* New Programming Lanugage */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "New Programming Lanugage"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C836DA2985AA01003EC24F /* General LL1 Parser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "General LL1 Parser"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C836DD2985AA01003EC24F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		08C836EB2985AF55003EC24F /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		08C836ED2985AF80003EC24F /* Context Free Grammar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Context Free Grammar.swift"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		08C836D12985AA01003EC24F = {
 			isa = PBXGroup;
 			children = (
-				08C836DC2985AA01003EC24F /* New Programming Lanugage */,
+				08C836DC2985AA01003EC24F /* General LL1 Parser */,
 				08C836DB2985AA01003EC24F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,12 +59,12 @@
 		08C836DB2985AA01003EC24F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				08C836DA2985AA01003EC24F /* New Programming Lanugage */,
+				08C836DA2985AA01003EC24F /* General LL1 Parser */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		08C836DC2985AA01003EC24F /* New Programming Lanugage */ = {
+		08C836DC2985AA01003EC24F /* General LL1 Parser */ = {
 			isa = PBXGroup;
 			children = (
 				08C836DD2985AA01003EC24F /* main.swift */,
@@ -74,15 +74,15 @@
 				0896A96C2985CC5D001A036A /* Node.swift */,
 				08C836EB2985AF55003EC24F /* Token.swift */,
 			);
-			path = "New Programming Lanugage";
+			path = "General LL1 Parser";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		08C836D92985AA01003EC24F /* New Programming Lanugage */ = {
+		08C836D92985AA01003EC24F /* General LL1 Parser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08C836E12985AA01003EC24F /* Build configuration list for PBXNativeTarget "New Programming Lanugage" */;
+			buildConfigurationList = 08C836E12985AA01003EC24F /* Build configuration list for PBXNativeTarget "General LL1 Parser" */;
 			buildPhases = (
 				08C836D62985AA01003EC24F /* Sources */,
 				08C836D72985AA01003EC24F /* Frameworks */,
@@ -92,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = "New Programming Lanugage";
+			name = "General LL1 Parser";
 			productName = "New Programming Lanugage";
-			productReference = 08C836DA2985AA01003EC24F /* New Programming Lanugage */;
+			productReference = 08C836DA2985AA01003EC24F /* General LL1 Parser */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 08C836D52985AA01003EC24F /* Build configuration list for PBXProject "New Programming Lanugage" */;
+			buildConfigurationList = 08C836D52985AA01003EC24F /* Build configuration list for PBXProject "General LL1 Parser" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				08C836D92985AA01003EC24F /* New Programming Lanugage */,
+				08C836D92985AA01003EC24F /* General LL1 Parser */,
 			);
 		};
 /* End PBXProject section */
@@ -281,7 +281,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		08C836D52985AA01003EC24F /* Build configuration list for PBXProject "New Programming Lanugage" */ = {
+		08C836D52985AA01003EC24F /* Build configuration list for PBXProject "General LL1 Parser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08C836DF2985AA01003EC24F /* Debug */,
@@ -290,7 +290,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		08C836E12985AA01003EC24F /* Build configuration list for PBXNativeTarget "New Programming Lanugage" */ = {
+		08C836E12985AA01003EC24F /* Build configuration list for PBXNativeTarget "General LL1 Parser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08C836E22985AA01003EC24F /* Debug */,
