@@ -10,7 +10,6 @@ func initParse(_ grammar: ContextFreeGrammar, _ tokens: [Token]) -> Node {
     
 }
 
-
 func parse (_ grammar: ContextFreeGrammar, _ tokens: [Token], _ index: inout Int, _ production: Production, _ node: inout Node, _ depth: Int = 0) {
     
     if depth > 1000 {
