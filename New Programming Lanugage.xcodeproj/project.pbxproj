@@ -70,19 +70,11 @@
 				08C836DD2985AA01003EC24F /* main.swift */,
 				0896A9642985BF56001A036A /* createGrammar.swift */,
 				0896A96A2985CC1B001A036A /* parse.swift */,
-				08C836E62985AF28003EC24F /* Grammar */,
-			);
-			path = "New Programming Lanugage";
-			sourceTree = "<group>";
-		};
-		08C836E62985AF28003EC24F /* Grammar */ = {
-			isa = PBXGroup;
-			children = (
 				08C836ED2985AF80003EC24F /* Context Free Grammar.swift */,
 				0896A96C2985CC5D001A036A /* Node.swift */,
 				08C836EB2985AF55003EC24F /* Token.swift */,
 			);
-			path = Grammar;
+			path = "New Programming Lanugage";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
